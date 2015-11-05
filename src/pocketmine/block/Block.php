@@ -63,9 +63,9 @@ class Block extends Position implements Metadatable{
 	const GOLD_ORE = 14;
 	const IRON_ORE = 15;
 	const COAL_ORE = 16;
+	const LOG = 17;
 	const WOOD = 17;
 	const TRUNK = 17;
-	const LOG = 17;
 	const LEAVES = 18;
 	const LEAVE = 18;
 	const SPONGE = 19;
@@ -76,7 +76,8 @@ class Block extends Position implements Metadatable{
 	const SANDSTONE = 24;
 
 	const BED_BLOCK = 26;
-
+	
+	const POWERED_RAIL = 27;
 
 	const COBWEB = 30;
 	const TALL_GRASS = 31;
@@ -84,8 +85,8 @@ class Block extends Position implements Metadatable{
 	const DEAD_BUSH = 32;
 	const WOOL = 35;
 	const DANDELION = 37;
-	const ROSE = 38;
 	const POPPY = 38;
+	const ROSE = 38;
 	const RED_FLOWER = 38;
 	const BROWN_MUSHROOM = 39;
 	const RED_MUSHROOM = 40;
@@ -125,6 +126,7 @@ class Block extends Position implements Metadatable{
 	const WOODEN_DOOR_BLOCK = 64;
 	const WOOD_DOOR_BLOCK = 64;
 	const LADDER = 65;
+	const RAIL = 66;
 
 	const COBBLE_STAIRS = 67;
 	const COBBLESTONE_STAIRS = 67;
@@ -158,11 +160,12 @@ class Block extends Position implements Metadatable{
 	const CAKE_BLOCK = 92;
 
 	const TRAPDOOR = 96;
-	const WOODEN_TRAPDOOR = 96;
-	const WOOD_TRAPDOOR = 96;
 
 	const STONE_BRICKS = 98;
 	const STONE_BRICK = 98;
+	
+	const BROWN_MUSHROOM_BLOCK = 99;
+	const RED_MUSHROOM_BLOCK = 100;
 
 	const IRON_BAR = 101;
 	const IRON_BARS = 101;
@@ -187,8 +190,9 @@ class Block extends Position implements Metadatable{
 	const ENCHANTING_TABLE = 116;
 	const ENCHANT_TABLE = 116;
 	const ENCHANTMENT_TABLE = 116;
+	const BREWING_STAND_BLOCK = 117;
 
-	const END_PORTAL_FRAME = 120;
+	const END_PORTAL = 120;
 	const END_STONE = 121;
 
 	const SANDSTONE_STAIRS = 128;
@@ -208,6 +212,10 @@ class Block extends Position implements Metadatable{
 
 	const CARROT_BLOCK = 141;
 	const POTATO_BLOCK = 142;
+	
+	const SKULL_BLOCK = 143;
+	const HEAD_BLOCK = 143;
+	const MOB_HEAD_BLOCK = 143;
 
 	const ANVIL = 145;
 
@@ -240,6 +248,7 @@ class Block extends Position implements Metadatable{
 	const CARPET = 171;
 	const HARDENED_CLAY = 172;
 	const COAL_BLOCK = 173;
+	const PACKED_ICE = 174;
 
 	const DOUBLE_PLANT = 175;
 
